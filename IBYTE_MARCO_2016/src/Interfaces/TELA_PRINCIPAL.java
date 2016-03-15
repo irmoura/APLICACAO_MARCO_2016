@@ -291,7 +291,7 @@ public class TELA_PRINCIPAL extends javax.swing.JFrame {
         
         
         
-        play("/Interfaces/SONS/mario");
+        //play("/Interfaces/SONS/mario");
         
         KeyboardFocusManager.getCurrentKeyboardFocusManager()
             .addKeyEventDispatcher(new KeyEventDispatcher() {
@@ -424,9 +424,7 @@ public class TELA_PRINCIPAL extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                //new TELA_PRINCIPAL().setVisible(false);
-                new TELA_DE_CARREGAMENTO().setVisible(true);
-                new TELA_PRINCIPAL().setVisible(false);
+                new TELA_PRINCIPAL().setVisible(true);
             }
         });
     }
